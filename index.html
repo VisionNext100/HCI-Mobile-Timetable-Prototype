@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>课程查询 · 2026春</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-home">
+  <div class="top-panel">
+    <header class="app-header">
+      <div class="app-header__inner">
+        <h1 class="app-header__title">课程查询</h1>
+      </div>
+    </header>
+
+    <section class="week-bar">
+    <button type="button" class="week-bar__btn" id="weekPrev" aria-label="上一周">‹</button>
+    <button type="button" class="week-bar__center" id="weekPickerBtn" aria-haspopup="dialog">
+      <span class="week-bar__semester" id="semesterLabel">2026春</span>
+      <span class="week-bar__week" id="weekLabel">第 1 周</span>
+      <span class="week-bar__chevron">▾</span>
+    </button>
+    <button type="button" class="week-bar__btn" id="weekNext" aria-label="下一周">›</button>
+  </section>
+  </div>
+
+  <section class="progress-card" id="progressCard">
+    <div class="progress-card__head">
+      <span class="progress-card__title">今日进度</span>
+      <span class="progress-card__meta" id="progressMeta"></span>
+    </div>
+    <p class="progress-card__main" id="progressMain">加载中…</p>
+    <div class="progress-card__track" aria-hidden="true">
+      <div class="progress-card__fill" id="progressFill"></div>
+    </div>
+  </section>
+
+  <main class="timetable-shell" id="timetableShell">
+    <div class="timetable-scroll">
+      <div class="timetable" id="timetable"></div>
+    </div>
+  </main>
+
+  <a class="float-next" id="floatNext" href="#" hidden>
+    <div class="float-next__label">下一节</div>
+    <div class="float-next__info" id="floatNextInfo"></div>
+  </a>
+
+  <dialog class="week-picker" id="weekPicker">
+    <div class="week-picker__panel">
+      <div class="week-picker__header">
+        <span>选择周次</span>
+        <button type="button" class="week-picker__close" id="weekPickerClose">完成</button>
+      </div>
+      <ul class="week-picker__list" id="weekPickerList"></ul>
+    </div>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
