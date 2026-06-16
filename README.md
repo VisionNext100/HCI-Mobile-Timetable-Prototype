@@ -51,8 +51,7 @@
 
 1. 用 VS Code 打开本项目文件夹  
 2. 安装 **Live Server** 插件  
-3. 右键 `index.html`，然后 **Go Live**  
-4. 浏览器访问（勿直接双击 HTML，`file://` 无法加载 CSV）
+3. 右键 `index.html`，然后 **Go Live**
 
 ```
 HCI-Mobile-Timetable-Prototype/
