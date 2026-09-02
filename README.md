@@ -4,7 +4,9 @@
 > 改进对象：华东师范大学移动端官方课表  
 > 交付形态：移动端 Web 高保真交互原型
 
----
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/VisionNext100.github.io@main/public/images/projects/project-timetable.png" width="800" alt="HCI-Mobile-Timetable-Prototype">
+</div>
 
 ## 一、项目概述
 
