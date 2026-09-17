@@ -22,9 +22,9 @@
 | 周次/课程信息分散 | 单双周、结课周等规则不直观         |
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/HCI-Mobile-Timetable-Prototype/MobileClassSchedule.jpg" width="250" alt="华东师范大学手机端课表">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/HCI-Mobile-Timetable-Prototype/Class-Schedule-Before-Improvement.jpg" width="250" alt="华东师范大学手机端课表">
     <br>
-    <em>华东师范大学手机端课表（待改进）</em>
+    <em>改进前的华东师范大学手机端课表</em>
 </div> 
 
 ### 我们的方案
@@ -112,7 +112,7 @@ HCI-Mobile-Timetable-Prototype/
 
 ---
 
-## 四、HCI 理论映射（写报告时可引用）
+## 四、HCI 理论映射
 
 | 设计决策                     | HCI 理论 / 原则                                               |
 | ---------------------------- | ------------------------------------------------------------- |
@@ -153,22 +153,25 @@ HCI-Mobile-Timetable-Prototype/
 4. 进度条 / 下一节悬浮栏对你是否有用？  
 5. 周次切换你更习惯列表选还是逐周翻？  
 
-### 演示建议流程
+---
 
-1. 打开主页 → 指出顶栏、紧凑网格、分色  
-2. 切换周次 → 单周课消失（如第 2 周数据可视化理论课）  
-3. 指出今日高亮 + 进度条 + 底部下一节  
-4. 点击课程 → 详情页  
-5. 说明：数据为 CSV 模拟，未接官方 API（属刻意范围限定）
-
-### 报告可引用的「Before / After」
-
-- **Before**：`手机端课表.jpg`（间距大、撞色、无进度、顶栏无层次）  
-- **After**：Live Server 打开 `index.html` 截图  
+## 六、作品截图
+<br>
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/HCI-Mobile-Timetable-Prototype/Class_Schedule_After_Improvement_1.jpg" width="250" alt="华东师范大学手机端课表">
+    <br>
+    <em>改进后课表的主页面</em>
+</div> 
+<br>
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/HCI-Mobile-Timetable-Prototype/Class_Schedule_After_Improvement_2.jpg" width="600" alt="华东师范大学手机端课表">
+    <br>
+    <em>改进后课表的其他功能</em>
+</div> 
 
 ---
 
-## 六、已知限制
+## 七、已知限制
 
 - 未对接华东师大官方课表 API，数据来自 `schedule.csv`  
 - 未做学期切换，固定「2026春」  
